@@ -1,7 +1,7 @@
 //require the library
 const mongoose=require('mongoose');
 //connect to database
-mongoose.connect('mongodb://localhost/expressjs_db');
+mongoose.connect('mongodb://localhost:27017/expressjs_db');
 //accquire the connection to check if it is succesful
 const db=mongoose.connection;
 //error
